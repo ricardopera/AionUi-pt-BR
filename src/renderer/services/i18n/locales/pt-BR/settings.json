@@ -627,7 +627,7 @@
   "command": "Command",
   "args": "Args",
   "env": "Env",
-  "agentModelSettings": "Modo agentel Configurações",
+  "agentModelSettings": "Configurações do modelo do agente",
   "agentModelSettingsTooltip": "Configure default models for each AI agent. Models will be injected when starting new conversations.",
   "selectModel": "Selecionar model",
   "agentModelSaved": "Modelo selection saved",
