@@ -169,6 +169,7 @@ afterSign: scripts/afterSign.js
 linux:
   target:
     - deb
+    - pacman
   icon: resources/app.png
   artifactName: ${productName}-${version}-${os}-${arch}.${ext}
   category: Utility
