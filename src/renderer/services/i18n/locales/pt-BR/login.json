@@ -1,0 +1,26 @@
+{
+  "pageTitle": "AionUi - Entrar",
+  "brand": "AionUi",
+  "subtitle": "Bem-vindo de volta, faça login na sua conta",
+  "username": "Nome de usuário",
+  "usernamePlaceholder": "Digite seu nome de usuário",
+  "password": "Senha",
+  "passwordPlaceholder": "Digite sua senha",
+  "rememberMe": "Lembrar de mim",
+  "submit": "Entrar",
+  "submitting": "Entrando...",
+  "success": "Login realizado com sucesso! Redirecionando...",
+  "showPassword": "Mostrar senha",
+  "hidePassword": "Ocultar senha",
+  "languageToggle": "Alterar idioma",
+  "footerPrimary": "Transforme sua IA de linha de comando",
+  "footerSecondary": "Moderno e eficiente",
+  "errors": {
+    "empty": "Digite nome de usuário e senha",
+    "invalidCredentials": "Nome de usuário ou senha inválidos",
+    "tooManyAttempts": "Muitas tentativas, tente novamente mais tarde",
+    "networkError": "Falha de conexão, tente novamente",
+    "serverError": "Erro do servidor, tente novamente mais tarde",
+    "unknown": "Falha no login, tente novamente"
+  }
+}

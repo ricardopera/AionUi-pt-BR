@@ -35,6 +35,7 @@ import { ConfigProvider } from '@arco-design/web-react';
 import '@arco-design/web-react/es/_util/react-19-adapter';
 import '@arco-design/web-react/dist/css/arco.css';
 import enUS from '@arco-design/web-react/es/locale/en-US';
+import ptBR from '@arco-design/web-react/es/locale/pt-BR';
 import jaJP from '@arco-design/web-react/es/locale/ja-JP';
 import zhCN from '@arco-design/web-react/es/locale/zh-CN';
 import zhTW from '@arco-design/web-react/es/locale/zh-TW';
@@ -78,8 +79,28 @@ const koKRComplete = {
   ColorPicker: enUS.ColorPicker,
 };
 
+const ptBRComplete = {
+  ...ptBR,
+  Calendar: {
+    ...ptBR.Calendar,
+    monthFormat: enUS.Calendar.monthFormat,
+    yearFormat: enUS.Calendar.yearFormat,
+  },
+  DatePicker: {
+    ...ptBR.DatePicker,
+    Calendar: {
+      ...ptBR.DatePicker.Calendar,
+      monthFormat: enUS.Calendar.monthFormat,
+      yearFormat: enUS.Calendar.yearFormat,
+    },
+  },
+  Form: enUS.Form,
+  ColorPicker: enUS.ColorPicker,
+};
+
 const arcoLocales: Record<string, typeof enUS> = {
   'zh-CN': zhCN,
+  'pt-BR': ptBRComplete,
   'zh-TW': zhTW,
   'ja-JP': jaJP,
   'ko-KR': koKRComplete,
