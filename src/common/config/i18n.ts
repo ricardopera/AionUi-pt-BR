@@ -31,6 +31,8 @@ export function normalizeLanguageCode(language: string): SupportedLanguage {
       return 'zh-CN';
     case 'ja':
       return 'ja-JP';
+    case 'pt':
+      return 'pt-BR';
     case 'ko':
       return 'ko-KR';
     case 'tr':
