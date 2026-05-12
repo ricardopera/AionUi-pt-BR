@@ -1,7 +1,7 @@
 {
   "health": {
     "detectedError": "Erro detectado com o agente atual ({{agent}})",
-    "autoSwitching": "O sistema tentará trocar automaticamente.",
+    "autoSwitching": ". O sistema tentará trocar automaticamente.",
     "evaluating": "Avaliando latência da rede e disponibilidade de modelo...",
     "checking": "Verificando endpoint de {{agent}}...",
     "foundBest": "Melhor alternativa encontrada",
