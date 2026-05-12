@@ -1,69 +1,69 @@
 {
-  "unknownFile": "Unknown file",
-  "newFile": "New Arquivo",
-  "deletedFile": "Deleted Arquivo",
-  "modified": "Modified",
-  "fileChanges": "Arquivo Changes",
+  "unknownFile": "Arquivo desconhecido",
+  "newFile": "Novo arquivo",
+  "deletedFile": "Arquivo excluído",
+  "modified": "Modificado",
+  "fileChanges": "Alterações de arquivo",
   "shell": {
-    "displayName": "Shell Command",
-    "description": "Execute shell commands"
+    "displayName": "Comando de shell",
+    "description": "Executar comandos de shell"
   },
   "fileOps": {
-    "displayName": "Arquivo Operations",
-    "description": "Arquivo read, write and modification"
+    "displayName": "Operações de arquivo",
+    "description": "Leitura, escrita e modificação de arquivos"
   },
   "webSearch": {
-    "displayName": "Web Pesquisar",
-    "description": "Pesquisar web content"
+    "displayName": "Pesquisa web",
+    "description": "Pesquisar conteúdo da web"
   },
   "mcp": {
     "generic": {
-      "displayName": "MCP Tool: {{toolName}}",
-      "description": "MCP tool call: {{toolName}}"
+      "displayName": "Ferramenta MCP: {{toolName}}",
+      "description": "Chamada de ferramenta MCP: {{toolName}}"
     }
   },
   "unknown": {
-    "displayName": "Unknown Tool",
-    "description": "Unknown tool type"
+    "displayName": "Ferramenta desconhecida",
+    "description": "Tipo de ferramenta desconhecido"
   },
   "status": {
-    "pending": "Pending",
-    "executing": "Executing",
+    "pending": "Pendente",
+    "executing": "Executando",
     "success": "Sucesso",
     "error": "Erro",
-    "canceled": "Canceled"
+    "canceled": "Cancelado"
   },
   "titles": {
-    "web_search_started": "Web Pesquisar Started",
-    "web_search_completed": "Web Pesquisar Completed",
-    "web_search": "Web Pesquisar",
-    "applying_patch": "Applying Patch",
-    "patch_applied": "Patch Applied",
-    "file_patch": "Arquivo Patch",
-    "mcp_tool_starting": "MCP Tool: {{toolName}} (starting)",
-    "mcp_tool": "MCP Tool: {{toolName}}",
-    "execute_command": "Execute: {{command}}",
-    "command_output": "Command Output",
-    "command_completed": "Command Completed",
-    "shell_command": "Shell Command"
+    "web_search_started": "Pesquisa web iniciada",
+    "web_search_completed": "Pesquisa web concluída",
+    "web_search": "Pesquisa web",
+    "applying_patch": "Aplicando patch",
+    "patch_applied": "Patch aplicado",
+    "file_patch": "Patch de arquivo",
+    "mcp_tool_starting": "Ferramenta MCP: {{toolName}} (iniciando)",
+    "mcp_tool": "Ferramenta MCP: {{toolName}}",
+    "execute_command": "Executar: {{command}}",
+    "command_output": "Saída do comando",
+    "command_completed": "Comando concluído",
+    "shell_command": "Comando de shell"
   },
   "labels": {
-    "search_query": "Pesquisar Query:",
-    "file_changes": "Arquivo Changes:",
-    "tool_details": "Tool Details:",
-    "tool": "Tool",
-    "arguments": "Arguments:",
-    "result": "Result:",
-    "command": "Command:",
-    "working_directory": "Working directory:",
-    "exit_code": "Exit: {{code}}",
-    "duration": "Duration: {{seconds}}",
-    "auto_approved": "Automático-approved",
-    "manual_approval": "Manual approval"
+    "search_query": "Consulta de pesquisa:",
+    "file_changes": "Alterações de arquivo:",
+    "tool_details": "Detalhes da ferramenta:",
+    "tool": "Ferramenta",
+    "arguments": "Argumentos:",
+    "result": "Resultado:",
+    "command": "Comando:",
+    "working_directory": "Diretório de trabalho:",
+    "exit_code": "Saída: {{code}}",
+    "duration": "Duração: {{seconds}}",
+    "auto_approved": "Aprovado automaticamente",
+    "manual_approval": "Aprovação manual"
   },
   "actions": {
-    "create": "create",
-    "modify": "modify",
-    "delete": "delete"
+    "create": "criar",
+    "modify": "modificar",
+    "delete": "excluir"
   }
 }

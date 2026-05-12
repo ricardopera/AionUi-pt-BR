@@ -52,7 +52,7 @@
     "composing": "Composing response content..."
   },
   "error": {
-    "system_init_failed": "Falha to initialize Codex system",
+    "system_init_failed": "Falha ao initialize Codex system",
     "invalid_message_format": "Invalid message format",
     "invalid_input": "Invalid input provided",
     "session_timeout": "Session timed out, please retry",
@@ -77,7 +77,7 @@
     "reset": "Configuration reset to defaults",
     "validation_failed": "Configuration validation failed",
     "import_success": "Configuration imported successfully",
-    "import_failed": "Falha to import configuration",
+    "import_failed": "Falha ao importar configuration",
     "export_success": "Configuration exported successfully"
   },
   "permissions": {

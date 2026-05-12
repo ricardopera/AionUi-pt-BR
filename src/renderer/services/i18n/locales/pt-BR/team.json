@@ -1,60 +1,60 @@
 {
   "sider": {
-    "title": "Teams",
-    "createTeam": "New Team",
-    "pin": "Pin",
-    "unpin": "Unpin",
-    "rename": "Rename",
+    "title": "Equipes",
+    "createTeam": "Nova equipe",
+    "pin": "Fixar",
+    "unpin": "Desafixar",
+    "rename": "Renomear",
     "delete": "Excluir",
-    "renameTitle": "Rename Team",
-    "renamePlaceholder": "Team name",
-    "deleteConfirm": "Excluir this team?",
-    "deleteConfirmContent": "This action cannot be undone.",
+    "renameTitle": "Renomear equipe",
+    "renamePlaceholder": "Nome da equipe",
+    "deleteConfirm": "Excluir esta equipe?",
+    "deleteConfirmContent": "Esta ação não pode ser desfeita.",
     "deleteOk": "Excluir",
     "deleteCancel": "Cancelar",
     "renameOk": "Salvar",
     "renameCancel": "Cancelar",
-    "renameSuccess": "Team renamed",
-    "deleteSuccess": "Team deleted"
+    "renameSuccess": "Equipe renomeada",
+    "deleteSuccess": "Equipe excluída"
   },
-  "newAgent": "New Agent",
-  "noMessages": "No messages yet.",
-  "agentNotConfigured": "Agent not configured yet.",
+  "newAgent": "Novo agente",
+  "noMessages": "Ainda não há mensagens.",
+  "agentNotConfigured": "Agente ainda não configurado.",
   "sendBox": {
-    "placeholder": "Mensagem dispatch agent..."
+    "placeholder": "Mensagem para o agente coordenador..."
   },
   "create": {
-    "title": "Criar Team",
-    "namePlaceholder": "Team name",
-    "dispatchAgentPlaceholder": "Selecionar team leader",
-    "subAgentsPlaceholder": "Selecionar sub agents",
-    "workspacePlaceholder": "Espaço de trabalho path (opcional)",
-    "confirm": "Criar Team",
-    "noSupportedAgents": "No supported agents installed",
-    "supportedAgentsHint": "Currently supports Claude and Codex. Mais agents coming soon.",
-    "leaderDesc": "Understands your goals and coordinates agents to complete tasks",
+    "title": "Criar equipe",
+    "namePlaceholder": "Nome da equipe",
+    "dispatchAgentPlaceholder": "Selecionar líder da equipe",
+    "subAgentsPlaceholder": "Selecionar subagentes",
+    "workspacePlaceholder": "Caminho do espaço de trabalho (opcional)",
+    "confirm": "Criar equipe",
+    "noSupportedAgents": "Nenhum agente compatível instalado",
+    "supportedAgentsHint": "Atualmente compatível com Claude e Codex. Mais agentes em breve.",
+    "leaderDesc": "Entende seus objetivos e coordena agentes para concluir tarefas",
     "step": {
-      "dispatch": "Team Leader",
-      "subAgents": "Sub Agents",
+      "dispatch": "Líder da equipe",
+      "subAgents": "Subagentes",
       "workspace": "Espaço de trabalho"
     },
-    "nameRequired": "Please enter a team name",
-    "leaderRequired": "Please select a team leader",
-    "selectFolder": "Selecionar folder",
-    "recentLabel": "Recent",
-    "chooseDifferentFolder": "Choose a different folder",
-    "error": "Falha to create team"
+    "nameRequired": "Digite um nome para a equipe",
+    "leaderRequired": "Selecione um líder da equipe",
+    "selectFolder": "Selecionar pasta",
+    "recentLabel": "Recentes",
+    "chooseDifferentFolder": "Escolher uma pasta diferente",
+    "error": "Falha ao criar equipe"
   },
   "removeAgent": {
-    "confirmTitle": "Remover Team Member",
-    "confirmContent": "This member is currently active. Force remove?"
+    "confirmTitle": "Remover membro da equipe",
+    "confirmContent": "Este membro está ativo no momento. Deseja forçar a remoção?"
   },
   "emptyState": {
-    "subtitle": "Describe your goal and I'll get the team working on it",
+    "subtitle": "Descreva seu objetivo e eu colocarei a equipe para trabalhar nisso",
     "suggestions": {
-      "debate": "Organize a debate with agents taking different sides",
-      "interview": "Plan an in-depth interview between agents",
-      "expert_review": "Have multiple experts analyze the same problem"
+      "debate": "Organize um debate com agentes defendendo lados diferentes",
+      "interview": "Planeje uma entrevista aprofundada entre agentes",
+      "expert_review": "Peça a vários especialistas para analisar o mesmo problema"
     }
   }
 }

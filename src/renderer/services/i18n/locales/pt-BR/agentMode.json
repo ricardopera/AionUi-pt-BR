@@ -15,5 +15,5 @@
   "permission": "Permission",
   "switchMode": "Switch Mode",
   "switchSuccess": "Mode switched successfully",
-  "switchFailed": "Falha to switch mode"
+  "switchFailed": "Falha ao switch mode"
 }
