@@ -1,133 +1,133 @@
 {
   "sendbox": {},
   "network": {
-    "cloudflare_blocked": "Cloudflare protection blocked access to {{service}}. Suggestions: 1) Use VPN 2) Switch network 3) Tentar novamente later 4) Switch to other AI services",
-    "network_timeout": "Network timeout, automatically retrying connection...",
-    "connection_refused": "Connection refused, please check if Codex service is running properly.",
-    "unknown_error": "Network connection error, please check network settings.",
-    "retry_attempt": "Retrying attempt {{current}}...",
-    "cloudflare_blocked_title": "🚫 {{service}} service blocked by Cloudflare protection",
-    "network_timeout_title": "⏱️ Network connection timeout",
-    "connection_refused_title": "❌ Service connection refused",
-    "unknown_error_title": "🔌 Network connection error",
-    "recovery_suggestions": "**Suggested Solutions:**",
-    "technical_info": "**Technical Information:**",
-    "error_type": "Erro Type",
-    "retry_count": "Tentar novamente Count",
+    "cloudflare_blocked": "A proteção do Cloudflare bloqueou o acesso a {{service}}. Sugestões: 1) Usar VPN 2) Trocar de rede 3) Tentar novamente mais tarde 4) Trocar para outros serviços de IA",
+    "network_timeout": "Tempo limite de rede excedido, tentando reconectar automaticamente...",
+    "connection_refused": "Conexão recusada. Verifique se o serviço Codex está em execução corretamente.",
+    "unknown_error": "Erro de conexão de rede. Verifique as configurações de rede.",
+    "retry_attempt": "Tentativa de repetição {{current}}...",
+    "cloudflare_blocked_title": "🚫 Serviço {{service}} bloqueado pela proteção do Cloudflare",
+    "network_timeout_title": "⏱️ Tempo limite de conexão de rede",
+    "connection_refused_title": "❌ Conexão com serviço recusada",
+    "unknown_error_title": "🔌 Erro de conexão de rede",
+    "recovery_suggestions": "**Soluções sugeridas:**",
+    "technical_info": "**Informações técnicas:**",
+    "error_type": "Tipo de erro",
+    "retry_count": "Contagem de tentativas",
     "error_details": "Detalhes do erro",
-    "quick_switch_title": "💡 **Quick Switch Options:**",
-    "quick_switch_content": "When current service encounters network restrictions, you can:\n\n1. **Switch AI Assistant Immediately**: Selecionar other available assistants from the left panel\n2. **Check Service Status**: Availability of different AI services may vary by region\n3. **Network Optimization**: Use stable network environment to improve connection success rate\n4. **Tentar novamente Later**: Network restrictions are usually temporary\n\n**Tip**: It's recommended to configure multiple AI services as alternatives to ensure work continuity.",
+    "quick_switch_title": "💡 **Opções rápidas de troca:**",
+    "quick_switch_content": "Quando o serviço atual encontrar restrições de rede, você pode:\n\n1. **Trocar imediatamente de assistente de IA**: Selecione outros assistentes disponíveis no painel esquerdo\n2. **Verificar status do serviço**: A disponibilidade de diferentes serviços de IA pode variar por região\n3. **Otimizar rede**: Use um ambiente de rede estável para melhorar a taxa de sucesso da conexão\n4. **Tentar novamente mais tarde**: Restrições de rede costumam ser temporárias\n\n**Dica**: Recomenda-se configurar múltiplos serviços de IA como alternativa para garantir continuidade do trabalho.",
     "recovery_actions": {
       "cloudflare_blocked": [
-        "• Use VPN or proxy service",
-        "• Switch network environment (like mobile hotspot)",
-        "• Wait 10-30 minutes and retry",
-        "• Limpar browser cache and cookies",
-        "• Switch to other available services: ChatGPT, Claude, Qwen, Gemini"
+        "• Use VPN ou serviço de proxy",
+        "• Troque o ambiente de rede (como hotspot móvel)",
+        "• Aguarde de 10 a 30 minutos e tente novamente",
+        "• Limpe cache e cookies do navegador",
+        "• Troque para outros serviços disponíveis: ChatGPT, Claude, Qwen, Gemini"
       ],
       "network_timeout": [
-        "• Check if network connection is stable",
-        "• Tentar novamente connection operation",
-        "• Switch to more stable network environment",
-        "• Check firewall settings"
+        "• Verifique se a conexão de rede está estável",
+        "• Tente novamente a operação de conexão",
+        "• Troque para um ambiente de rede mais estável",
+        "• Verifique as configurações de firewall"
       ],
       "connection_refused": [
-        "• Check if Codex CLI is properly installed",
-        "• Verify service configuration and API keys",
-        "• Restart application",
-        "• Check if local ports are occupied"
+        "• Verifique se o Codex CLI está instalado corretamente",
+        "• Confira a configuração do serviço e as chaves de API",
+        "• Reinicie o aplicativo",
+        "• Verifique se as portas locais estão ocupadas"
       ],
       "unknown": [
-        "• Check network connection status",
-        "• Tentar novamente current operation",
-        "• Switch network environment",
-        "• Contato technical support"
+        "• Verifique o status da conexão de rede",
+        "• Tente novamente a operação atual",
+        "• Troque o ambiente de rede",
+        "• Contate o suporte técnico"
       ]
     }
   },
   "thinking": {
-    "processing": "🤔 Codex is thinking...",
-    "completed": "💭 Thinking process completed",
-    "analyzing": "Analyzing the problem and formulating solutions...",
-    "composing": "Composing response content..."
+    "processing": "🤔 Codex está pensando...",
+    "completed": "💭 Processo de pensamento concluído",
+    "analyzing": "Analisando o problema e formulando soluções...",
+    "composing": "Compondo conteúdo da resposta..."
   },
   "error": {
-    "system_init_failed": "Falha ao initialize Codex system",
-    "invalid_message_format": "Invalid message format",
-    "invalid_input": "Invalid input provided",
-    "session_timeout": "Session timed out, please retry",
-    "permission_denied": "Permission denied for this operation",
-    "context_error": "Erro occurred in {{context}}, please refresh or retry.",
-    "generic": "Codex component encountered an exception, please try again later.",
-    "troubleshooting": "Solução de problemas Suggestions",
-    "suggestion_1": "Check if network connection is stable",
-    "suggestion_2": "Ensure Codex service is running properly",
-    "suggestion_3": "Try restarting the application",
-    "suggestion_4": "Limpar browser cache and local storage"
+    "system_init_failed": "Falha ao inicializar o sistema Codex",
+    "invalid_message_format": "Formato de mensagem inválido",
+    "invalid_input": "Entrada inválida fornecida",
+    "session_timeout": "Sessão expirada, tente novamente",
+    "permission_denied": "Permissão negada para esta operação",
+    "context_error": "Ocorreu um erro em {{context}}, atualize ou tente novamente.",
+    "generic": "O componente Codex encontrou uma exceção. Tente novamente mais tarde.",
+    "troubleshooting": "Sugestões de solução de problemas",
+    "suggestion_1": "Verifique se a conexão de rede está estável",
+    "suggestion_2": "Garanta que o serviço Codex esteja funcionando corretamente",
+    "suggestion_3": "Tente reiniciar o aplicativo",
+    "suggestion_4": "Limpe o cache do navegador e o armazenamento local"
   },
   "performance": {
-    "virtualization_enabled": "List virtualization is enabled for better performance",
-    "virtualization_disabled": "List virtualization is disabled, showing all items",
-    "debounce_enabled": "Input debouncing is enabled ({{delay}}ms delay)",
-    "debounce_disabled": "Input debouncing is disabled"
+    "virtualization_enabled": "A virtualização de lista está ativada para melhor desempenho",
+    "virtualization_disabled": "A virtualização de lista está desativada, exibindo todos os itens",
+    "debounce_enabled": "O debounce de entrada está ativado (atraso de {{delay}}ms)",
+    "debounce_disabled": "O debounce de entrada está desativado"
   },
   "config": {
-    "loaded": "Configuration loaded successfully",
-    "updated": "Configuration updated successfully",
-    "reset": "Configuration reset to defaults",
-    "validation_failed": "Configuration validation failed",
-    "import_success": "Configuration imported successfully",
-    "import_failed": "Falha ao importar configuration",
-    "export_success": "Configuration exported successfully"
+    "loaded": "Configuração carregada com sucesso",
+    "updated": "Configuração atualizada com sucesso",
+    "reset": "Configuração redefinida para os padrões",
+    "validation_failed": "Falha na validação da configuração",
+    "import_success": "Configuração importada com sucesso",
+    "import_failed": "Falha ao importar configuração",
+    "export_success": "Configuração exportada com sucesso"
   },
   "permissions": {
-    "allow_once": "Allow Once",
-    "allow_always": "Allow Always",
-    "reject_once": "Reject Once",
-    "reject_always": "Reject Always",
-    "allow_once_desc": "Grant permission for this request only",
-    "allow_always_desc": "Always grant permission for similar requests",
-    "reject_once_desc": "Reject this request only",
-    "reject_always_desc": "Always reject similar requests",
+    "allow_once": "Permitir uma vez",
+    "allow_always": "Permitir sempre",
+    "reject_once": "Rejeitar uma vez",
+    "reject_always": "Rejeitar sempre",
+    "allow_once_desc": "Conceder permissão apenas para esta solicitação",
+    "allow_always_desc": "Conceder permissão sempre para solicitações semelhantes",
+    "reject_once_desc": "Rejeitar apenas esta solicitação",
+    "reject_always_desc": "Rejeitar sempre solicitações semelhantes",
     "processing": "Processando...",
-    "response_sent": "Response sent successfully",
-    "choose_action": "Choose an action:",
+    "response_sent": "Resposta enviada com sucesso",
+    "choose_action": "Escolha uma ação:",
     "titles": {
-      "exec_approval_request": "Execute Command Permission",
-      "apply_patch_approval_request": "Apply Arquivo Changes Permission",
-      "command_execution": "Command Execution Permission",
-      "file_write": "Arquivo Write Permission",
-      "file_read": "Arquivo Read Permission"
+      "exec_approval_request": "Permissão para executar comando",
+      "apply_patch_approval_request": "Permissão para aplicar alterações em arquivo",
+      "command_execution": "Permissão de execução de comando",
+      "file_write": "Permissão de escrita de arquivo",
+      "file_read": "Permissão de leitura de arquivo"
     },
     "labels": {
-      "command": "Command:",
-      "directory": "Directory:",
-      "reason": "Reason:",
-      "files_to_modify": "Files to modify",
-      "summary": "Summary:"
+      "command": "Comando:",
+      "directory": "Diretório:",
+      "reason": "Motivo:",
+      "files_to_modify": "Arquivos para modificar",
+      "summary": "Resumo:"
     },
     "descriptions": {
-      "command_execution": "Codex requests to execute system commands",
-      "file_write": "Codex requests to modify or create files",
-      "file_read": "Codex requests to read file contents"
+      "command_execution": "Codex solicita executar comandos do sistema",
+      "file_write": "Codex solicita modificar ou criar arquivos",
+      "file_read": "Codex solicita ler o conteúdo de arquivos"
     },
     "command_execution": {
-      "allow_once_desc": "Allow this command execution only",
-      "allow_always_desc": "Always allow all command execution requests",
-      "reject_once_desc": "Reject this command execution only",
-      "reject_always_desc": "Always reject all command execution requests"
+      "allow_once_desc": "Permitir apenas esta execução de comando",
+      "allow_always_desc": "Permitir sempre todas as solicitações de execução de comando",
+      "reject_once_desc": "Rejeitar apenas esta execução de comando",
+      "reject_always_desc": "Rejeitar sempre todas as solicitações de execução de comando"
     },
     "file_write": {
-      "allow_once_desc": "Allow this file write only",
-      "allow_always_desc": "Always allow all file write requests",
-      "reject_once_desc": "Reject this file write only",
-      "reject_always_desc": "Always reject all file write requests"
+      "allow_once_desc": "Permitir apenas esta gravação de arquivo",
+      "allow_always_desc": "Permitir sempre todas as solicitações de gravação de arquivo",
+      "reject_once_desc": "Rejeitar apenas esta gravação de arquivo",
+      "reject_always_desc": "Rejeitar sempre todas as solicitações de gravação de arquivo"
     },
     "file_read": {
-      "allow_once_desc": "Allow this file read only",
-      "allow_always_desc": "Always allow all file read requests",
-      "reject_once_desc": "Reject this file read only",
-      "reject_always_desc": "Always reject all file read requests"
+      "allow_once_desc": "Permitir apenas esta leitura de arquivo",
+      "allow_always_desc": "Permitir sempre todas as solicitações de leitura de arquivo",
+      "reject_once_desc": "Rejeitar apenas esta leitura de arquivo",
+      "reject_always_desc": "Rejeitar sempre todas as solicitações de leitura de arquivo"
     }
   }
 }
