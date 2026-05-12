@@ -1,22 +1,22 @@
 {
   "auth": {
-    "failed": "{{backend}} authentication failed:\n\n{{error}}\n\nPlease check your local CLI tool authentication status",
-    "console_error": "ACP authentication error details:",
-    "failed_confirm": "ACP {{backend}} authentication failed:\n\n{{error}}\n\nWould you like to go to settings page to configure now?"
+    "failed": "Falha na autenticação do {{backend}}:\n\n{{error}}\n\nVerifique o status de autenticação da sua ferramenta CLI local",
+    "console_error": "Detalhes do erro de autenticação do ACP:",
+    "failed_confirm": "Falha na autenticação do ACP {{backend}}:\n\n{{error}}\n\nDeseja ir para a página de configurações para ajustar agora?"
   },
   "sendbox": {
-    "placeholder": "Enviar message to {{backend}}..."
+    "placeholder": "Enviar mensagem para {{backend}}..."
   },
   "status": {
-    "connecting": "Connecting to {{agent}}...",
-    "connected": "Connected to {{agent}}",
-    "authenticated": "Authenticated with {{agent}}",
-    "session_active": "Active session with {{agent}}",
-    "error": "Connection error",
-    "unknown": "Unknown status"
+    "connecting": "Conectando a {{agent}}...",
+    "connected": "Conectado a {{agent}}",
+    "authenticated": "Autenticado com {{agent}}",
+    "session_active": "Sessão ativa com {{agent}}",
+    "error": "Erro de conexão",
+    "unknown": "Status desconhecido"
   },
   "config": {
-    "reasoning_effort": "Reasoning Effort",
+    "reasoning_effort": "Esforço de raciocínio",
     "default": "Padrão"
   }
 }
