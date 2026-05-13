@@ -87,6 +87,7 @@ jobs:
             --pattern "*.exe" \
             --pattern "*.msi" \
             --pattern "*.deb" \
+            --pattern "*.pacman" \
             --pattern "*.zip"
           echo "Downloaded files:"
           ls -la dist

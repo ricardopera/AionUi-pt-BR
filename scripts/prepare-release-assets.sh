@@ -28,6 +28,7 @@ mapfile -t DISTRIBUTABLES < <(find "$ARTIFACTS_DIR" -type f \( \
   -name "*.msi" -o \
   -name "*.dmg" -o \
   -name "*.deb" -o \
+  -name "*.pacman" -o \
   -name "*.zip" \
 \) | sort)
 
